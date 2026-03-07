@@ -1,2 +1,2 @@
 This project is for learning GitHub...
-its my learning project 
+hello dosto
