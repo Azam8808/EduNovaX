@@ -17,7 +17,7 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config --global user.name "azam8808"
+          git config --global user.name "https://github.com/Azam8808"
           git config --global user.email "azamkhan32451@gmail.com"
 
           git add .
