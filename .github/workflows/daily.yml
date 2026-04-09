@@ -2,12 +2,16 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '1 20 * * *'  # daily (UTC time)
+    - cron: '1 20 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write   # 👈 IMPORTANT
 
 jobs:
   commit:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -17,7 +21,7 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config --global user.name "https://github.com/Azam8808"
+          git config --global user.name "Azam8808"
           git config --global user.email "azamkhan32451@gmail.com"
 
           git add .
