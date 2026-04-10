@@ -8,9 +8,9 @@ const { passwordUpdated } = require("../mail/templates/passwordUpdate")
 const Profile = require("../models/Profile")
 require("dotenv").config()
 
- // Signup Controller for Registering Users
- 
- exports.signup = async (req, res) => {
+// Signup Controller for Registering Users
+
+exports.signup = async (req, res) => {
   try {
     // Destructure fields from the request body
     const {
@@ -32,7 +32,7 @@ require("dotenv").config()
       !confirmPassword ||
       !otp
     ) {
-      return res.status(400).send({
+      return res.status(403).send({
         success: false,
         message: "All Fields are required",
       })
