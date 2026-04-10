@@ -15,6 +15,7 @@ const {
   deleteCourse,
 } = require("../controllers/Course")
 
+console.log("req.body")
 
 // Categories Controllers Import
 const {
