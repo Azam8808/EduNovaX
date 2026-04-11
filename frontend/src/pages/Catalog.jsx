@@ -5,8 +5,8 @@ import { useParams } from "react-router-dom"
 // import CourseCard from "../components/Catalog/CourseCard"
 // import CourseSlider from "../components/Catalog/CourseSlider"
 import Footer from "../Components/Common/Footer"
-import Course_Card from "../Components/Core/Catalog/Course_Card"
-import Course_Slider from "../Components/Core/Catalog/CourseSlider"
+import CourseCard from "../Components/Core/Catalog/CourseCard"
+import CourseSlider from "../Components/Core/Catalog/CourseSlider"
 import { apiConnector } from "../services/apiConnector"
 import { categories } from "../services/apis"
 import { getCatalogPageData } from "../services/operations/pageAndComponentData"
@@ -102,7 +102,7 @@ function Catalog() {
           </p>
         </div>
         <div>
-          <Course_Slider
+          <CourseSlider
             Courses={catalogPageData?.data?.selectedCategory?.courses}
           />
         </div>
@@ -113,7 +113,7 @@ function Catalog() {
           Top courses in {catalogPageData?.data?.differentCategory?.name}
         </div>
         <div className="py-8">
-          <Course_Slider
+          <CourseSlider
             Courses={catalogPageData?.data?.differentCategory?.courses}
           />
         </div>
@@ -127,7 +127,7 @@ function Catalog() {
             {catalogPageData?.data?.mostSellingCourses
               ?.slice(0, 4)
               .map((course, i) => (
-                <Course_Card course={course} key={i} Height={"h-[400px]"} />
+                <CourseCard course={course} key={i} Height={"h-[400px]"} />
               ))}
           </div>
         </div>
