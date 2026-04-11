@@ -30,6 +30,8 @@ function CourseDetails() {
   // Declear a state to save the course details
   const [response, setResponse] = useState(null)
   const [confirmationModal, setConfirmationModal] = useState(null)
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     // Calling fetchCourseDetails fucntion to fetch the details
     ;(async () => {
@@ -47,6 +49,7 @@ function CourseDetails() {
 
   // Calculating Avg Review count
   const [avgReviewCount, setAvgReviewCount] = useState(0)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const count = GetAvgRating(response?.data?.courseDetails.ratingAndReviews)
     setAvgReviewCount(count)
@@ -67,6 +70,7 @@ function CourseDetails() {
 
   // Total number of lectures
   const [totalNoOfLectures, setTotalNoOfLectures] = useState(0)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     let lectures = 0
     response?.data?.courseDetails?.courseContent?.forEach((sec) => {
