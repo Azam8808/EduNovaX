@@ -1,3 +1,4 @@
+// Returns formatted date and time
 export const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" }
     const date = new Date(dateString)
@@ -12,4 +13,3 @@ export const formatDate = (dateString) => {
   
     return `${formattedDate} | ${formattedTime}`
   }
-  
