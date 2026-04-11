@@ -21,7 +21,7 @@ import Cart from "./Components/Core/Dashboard/Cart";
 import { ACCOUNT_TYPE } from "./utils/constants";
 import { useDispatch, useSelector } from "react-redux";
 import EditCourse from "./Components/Core/Dashboard/EditCourse/index"
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import AddCourse from "./Components/Core/Dashboard/AddCourses/index";
 import Catalog from "./pages/Catalog"
 import MyCourses from "./Components/Core/Dashboard/MyCourses"
@@ -31,8 +31,6 @@ import VideoDetails from "./Components/Core/ViewCourse/VideoDetails";
 import Instructor from "./Components/Core/InstructorDashboard/Instructor";
 
 function App() {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
   
   const { user } = useSelector((state) => state.profile)
   return (

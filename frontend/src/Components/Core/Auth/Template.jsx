@@ -1,4 +1,4 @@
-import { FcGoogle } from "react-icons/fc"
+/* eslint-disable no-unused-vars */
 import { useSelector } from "react-redux"
 
 import frameImg from "../../../assets/Images/frame.png"
