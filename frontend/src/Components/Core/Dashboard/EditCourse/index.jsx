@@ -29,7 +29,8 @@ export default function EditCourse() {
     setLoading(false)
   }
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     populateCourseDetails();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])

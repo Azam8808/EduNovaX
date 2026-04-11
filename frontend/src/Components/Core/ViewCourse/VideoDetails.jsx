@@ -22,7 +22,9 @@ const VideoDetails = () => {
   const [loading, setLoading] = useState(false);
   const [previewSource, setPreviewSource] = useState("")
 
-  useEffect(() => {
+ 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     ;(async () => {
       if (!courseSectionData.length) return
       if (!courseId && !sectionId && !subSectionId) {

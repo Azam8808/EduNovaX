@@ -52,7 +52,8 @@ export default function ChangeProfilePicture() {
     }
   }
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     if (imageFile) {
       previewFile(imageFile)
     }

@@ -20,7 +20,8 @@ export default function ChipInput({
   // Setting up state for managing chips array
   const [chips, setChips] = useState([])
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     if (editCourse) {
       // console.log(course)
       setChips(course?.tag)
@@ -29,7 +30,8 @@ export default function ChipInput({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     setValue(name, chips)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chips])

@@ -12,7 +12,8 @@ export default function MyCourses() {
   const navigate = useNavigate()
   const [courses, setCourses] = useState([])
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     const fetchCourses = async () => {
       const result = await fetchInstructorCourses(token)
       if (result) {

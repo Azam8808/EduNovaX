@@ -19,7 +19,8 @@ export default function CourseReviewModal({ setReviewModal }) {
     formState: { errors },
   } = useForm()
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     setValue("courseExperience", "")
     setValue("courseRating", 0)
   }, [])

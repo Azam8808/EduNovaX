@@ -22,7 +22,8 @@ const VideoDetailsSidebar = ({setReviewModal}) => {
         completedLectures,
     } = useSelector((state)=>state.viewCourse);
 
-    useEffect(()=>{
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(()=>{
         const setActiveFlags = ()=>{
             if(!courseSectionData.length)
                 return;

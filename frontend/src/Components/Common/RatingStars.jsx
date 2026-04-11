@@ -12,7 +12,8 @@ function RatingStars({ Review_Count, Star_Size }) {
     empty: 0,
   })
 
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     const wholeStars = Math.floor(Review_Count) || 0
     SetStarCount({
       full: wholeStars,

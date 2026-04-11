@@ -19,7 +19,8 @@ function Catalog() {
   const [catalogPageData, setCatalogPageData] = useState(null)
   const [categoryId, setCategoryId] = useState(null)
   // Fetch All Categories
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     ;(async () => {
       try {
         const res = await apiConnector("GET", categories.CATEGORIES_API)
@@ -32,7 +33,8 @@ function Catalog() {
       }
     })()
   }, [catalogName])
-  useEffect(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
     if (categoryId) {
       ;(async () => {
         try {
