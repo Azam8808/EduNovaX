@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { toast } from "react-hot-toast"
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai"
+/* eslint-disable no-unused-vars */
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
 

@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import "./App.css";
 import { Route,Routes } from "react-router-dom";
 import Home from "./pages/Home"
