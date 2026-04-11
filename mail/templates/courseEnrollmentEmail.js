@@ -68,7 +68,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     <body>
         <div class="container">
             <a href="https://TechStudy-Hub-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
-                    alt="TechStudy-Hub Logo"></a>
+                    alt="EduNovaX Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
                 <p>Dear ${name},</p>
@@ -79,7 +79,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                 <a class="cta" href="https://TechStudy-Hub-edtech-project.vercel.app/dashboard">Go to Dashboard</a>
             </div>
             <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-                    href="mailto:info@TechStudy-Hub.com">info@TechStudy-Hub.com</a>. We are here to help!</div>
+                    href="mailto:mohdazam958032@gmail.com">mohdazam958032@gmail.com</a>. We are here to help!</div>
         </div>
     </body>
     
