@@ -172,7 +172,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">EduNovaX</div>
+          <div className="text-center">TechStudy Hub</div>
         </div>
       </div>
     </div>

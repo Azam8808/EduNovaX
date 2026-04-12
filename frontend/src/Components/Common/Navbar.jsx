@@ -50,8 +50,7 @@ function Navbar() {
     setLoading(false)
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(()=>{
+  useEffect(()=>{
     getCats();
   },[]);
 

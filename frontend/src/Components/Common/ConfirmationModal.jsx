@@ -1,4 +1,4 @@
-import IconBtn from "./IconBtn"
+import IconBtn from "./Iconbtn"
 
 export default function ConfirmationModal({ modalData }) {
   return (

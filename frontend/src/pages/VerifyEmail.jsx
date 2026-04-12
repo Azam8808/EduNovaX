@@ -13,8 +13,7 @@ function VerifyEmail() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     // Only allow access of this route when user has filled the signup form
     if (!signupData) {
       navigate("/signup");

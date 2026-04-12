@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 import { toast } from "react-hot-toast"
@@ -11,7 +9,7 @@ import {
   updateSubSection,
 } from "../../../../../services/operations/courseDetailsAPI"
 import { setCourse } from "../../../../../Slice/courseSlice"
-import IconBtn from "../../../../Common/IconBtn"
+import IconBtn from "../../../../Common/Iconbtn"
 import Upload from "../Upload"
 
 export default function SubSectionModal({
@@ -38,8 +36,7 @@ export default function SubSectionModal({
   const { token } = useSelector((state) => state.auth)
   const { course } = useSelector((state) => state.course)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     if (view || edit) {
       // console.log("modalData", modalData)
       setValue("lectureTitle", modalData.title)

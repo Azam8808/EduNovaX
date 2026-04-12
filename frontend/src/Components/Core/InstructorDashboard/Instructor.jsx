@@ -17,8 +17,7 @@ const Instructor = () => {
     const { user } = useSelector((state) => state.profile)
 
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(()=>{
+    useEffect(()=>{
         const getCourseDataWithStats = async()=>{
             setLoading(true)
             const instructorApiData = await getInstructorData(token);

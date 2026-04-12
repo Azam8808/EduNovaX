@@ -47,14 +47,12 @@ export default function Upload({
     }
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     register(name, { required: true })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [register])
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     setValue(name, selectedFile)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedFile, setValue])

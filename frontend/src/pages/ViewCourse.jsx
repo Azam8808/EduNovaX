@@ -18,8 +18,7 @@ export default function ViewCourse() {
   const dispatch = useDispatch()
   const [reviewModal, setReviewModal] = useState(false)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     ;(async () => {
       const courseData = await getFullDetailsOfCourse(courseId, token)
       // console.log("Course Data here... ", courseData.courseDetails)

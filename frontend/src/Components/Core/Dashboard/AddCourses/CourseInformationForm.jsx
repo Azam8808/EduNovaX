@@ -12,7 +12,7 @@ import {
 } from "../../../../services/operations/courseDetailsAPI"
 import { setCourse, setStep } from "../../../../Slice/courseSlice"
 import { COURSE_STATUS } from "../../../../utils/constants"
-import IconBtn from "../../../Common/IconBtn"
+import IconBtn from "../../../Common/Iconbtn"
 import Upload from "./Upload"
 import ChipInput from "./ChipInput"
 import RequirementsField from "./RequirementsField"
@@ -32,8 +32,7 @@ export default function CourseInformationForm() {
   const [loading, setLoading] = useState(false)
   const [courseCategories, setCourseCategories] = useState([])
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     const getCategories = async () => {
       setLoading(true)
       const categories = await fetchCourseCategories()

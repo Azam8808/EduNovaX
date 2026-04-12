@@ -1,5 +1,4 @@
 import * as Icons from "react-icons/vsc"
-/* eslint-disable no-unused-vars */
 import { useDispatch } from "react-redux"
 import { NavLink, matchPath, useLocation } from "react-router-dom"
 

@@ -13,8 +13,7 @@ export default function RequirementsField({
   const [requirement, setRequirement] = useState("");
   const [requirementsList, setRequirementsList] = useState([]);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     if (editCourse) {
       setRequirementsList(course?.instructions)
     }
@@ -22,8 +21,7 @@ useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     setValue(name, requirementsList)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [requirementsList])

@@ -21,8 +21,7 @@ const ReviewSlider = () => {
     const [reviews,setReviews] = useState([]);
     const truncateWords = 15;
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(()=>{
+    useEffect(()=>{
         const fetchAllReviews = async ()=>{
             const response = await apiConnector("GET",ratingsEndpoints.REVIEWS_DETAILS_API);
             console.log("logged reviews->",response);

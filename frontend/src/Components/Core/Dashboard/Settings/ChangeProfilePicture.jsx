@@ -3,7 +3,7 @@ import { FiUpload } from "react-icons/fi"
 import { useDispatch, useSelector } from "react-redux"
 
 import { updateDisplayPicture } from "../../../../services/operations/SettingAPI"
-import IconBtn from "../../../Common/IconBtn"
+import IconBtn from "../../../Common/Iconbtn"
 
 export default function ChangeProfilePicture() {
   const { token } = useSelector((state) => state.auth)
@@ -52,8 +52,7 @@ export default function ChangeProfilePicture() {
     }
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     if (imageFile) {
       previewFile(imageFile)
     }

@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/exhaustive-deps */
-
 import { useEffect, useRef, useState } from "react"
 import { AiOutlineDown } from "react-icons/ai"
 
@@ -11,13 +8,11 @@ export default function CourseAccordionBar({ course, isActive, handleActive }) {
 
   // Accordian state
   const [active, setActive] = useState(false)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     setActive(isActive?.includes(course._id))
   }, [isActive])
   const [sectionHeight, setSectionHeight] = useState(0)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     setSectionHeight(active ? contentEl.current.scrollHeight : 0)
   }, [active])
 

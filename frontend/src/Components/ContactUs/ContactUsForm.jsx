@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import React, { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 
@@ -34,8 +32,7 @@ const ContactUsForm = () => {
     }
   }
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     if (isSubmitSuccessful) {
       reset({
         email: "",

@@ -5,7 +5,7 @@ import HighlightText from "../Components/Core/Homepage/HighlightText";
 import CTAButton from "../Components/Core/Homepage/CTAButton";
 import Banner from "../assets/Images/banner.mp4";
 import CodeBlocks from "../Components/Core/Homepage/CodeBlocks";
-import TimelineSection from "../Components/Core/Homepage/TimelineSection";
+import TimeLineSection from "../Components/Core/Homepage/TimeLineSection";
 import LearningLanguageSection from "../Components/Core/Homepage/LearningLanguageSection";
 import InstructorSection from "../Components/Core/Homepage/InstructorSection";
 import Footer from "../Components/Common/Footer";
@@ -146,7 +146,7 @@ const Home = () => {
                         </div>
                         <div className="flex flex-col gap-10 w-[40%] items-start">
                             <div className="text-[16px]">
-                            The modern EduNovaX is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
+                            The modern TechStudy Hub is the dictates its own terms. Today, to be a competitive specialist requires more than professional skills.
                             </div>
                             <CTAButton active={true} linkto={"/signup"}>
                                 Learn More
@@ -156,7 +156,7 @@ const Home = () => {
 
                     </div>
 
-                <TimelineSection/>
+                <TimeLineSection/>
                 <LearningLanguageSection/>
             </div>
 

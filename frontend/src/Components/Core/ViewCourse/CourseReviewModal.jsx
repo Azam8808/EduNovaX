@@ -5,7 +5,7 @@ import ReactStars from "react-rating-stars-component"
 import { useSelector } from "react-redux"
 
 import { createRating } from "../../../services/operations/courseDetailsAPI"
-import IconBtn from "../../Common/IconBtn"
+import IconBtn from "../../Common/Iconbtn"
 
 export default function CourseReviewModal({ setReviewModal }) {
   const { user } = useSelector((state) => state.profile)
@@ -19,8 +19,7 @@ export default function CourseReviewModal({ setReviewModal }) {
     formState: { errors },
   } = useForm()
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     setValue("courseExperience", "")
     setValue("courseRating", 0)
   }, [])

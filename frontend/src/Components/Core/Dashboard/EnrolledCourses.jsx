@@ -20,8 +20,7 @@ export default function EnrolledCourses() {
       console.log("Could not fetch enrolled courses.")
     }
   };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     getEnrolledCourses();
   }, [])
 

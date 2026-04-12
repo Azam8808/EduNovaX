@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 import { useDispatch, useSelector } from "react-redux"
@@ -8,7 +6,7 @@ import { useNavigate } from "react-router-dom"
 import { editCourseDetails } from "../../../../../services/operations/courseDetailsAPI"
 import { resetCourseState, setStep } from "../../../../../Slice/courseSlice"
 import { COURSE_STATUS } from "../../../../../utils/constants"
-import IconBtn from "../../../../Common/IconBtn"
+import IconBtn from "../../../../Common/Iconbtn"
 
 export default function PublishCourse() {
   const { register, handleSubmit, setValue, getValues } = useForm()
@@ -19,8 +17,7 @@ export default function PublishCourse() {
   const { course } = useSelector((state) => state.course)
   const [loading, setLoading] = useState(false)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-useEffect(() => {
+  useEffect(() => {
     if (course?.status === COURSE_STATUS.PUBLISHED) {
       setValue("public", true)
     }
