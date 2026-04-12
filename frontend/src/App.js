@@ -13,7 +13,7 @@ import VerifyEmail from "./pages/VerifyEmail";
 import About from "./pages/About";
 // import ContactUsForm from "./Components/ContactPage/ContactUsForm";
 import ContactPage from "./pages/ContactPage";
-import MyProfile from "./Components/core/Dashboard/MyProfile";
+import MyProfile from "./Components/Core/Dashboard/MyProfile";
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./Components/core/Auth/PrivateRoute";
 import Error from "./pages/Error"
