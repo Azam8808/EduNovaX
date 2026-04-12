@@ -11,7 +11,7 @@ import {
   updateSubSection,
 } from "../../../../../services/operations/courseDetailsAPI"
 import { setCourse } from "../../../../../Slice/courseSlice"
-import IconBtn from "../../../../Common/Iconbtn"
+import IconBtn from "../../../../Common/IconBtn"
 import Upload from "../Upload"
 
 export default function SubSectionModal({

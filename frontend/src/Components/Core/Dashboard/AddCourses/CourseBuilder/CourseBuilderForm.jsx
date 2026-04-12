@@ -14,7 +14,7 @@ import {
   setEditCourse,
   setStep,
 } from "../../../../../Slice/courseSlice"
-import IconBtn from "../../../../Common/Iconbtn"
+import IconBtn from "../../../../Common/IconBtn"
 import NestedView from "./NestedView"
 
 export default function CourseBuilderForm() {
