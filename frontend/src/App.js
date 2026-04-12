@@ -15,7 +15,7 @@ import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
 import MyProfile from "./Components/Core/Dashboard/MyProfile";
 import Dashboard from "./pages/Dashboard";
-import PrivateRoute from "./Components/core/Auth/PrivateRoute";
+import PrivateRoute from "./Components/Core/Auth/PrivateRoute";
 import Error from "./pages/Error"
 import Settings from "./Components/core/Dashboard/Settings";
 import { useDispatch, useSelector } from "react-redux";
