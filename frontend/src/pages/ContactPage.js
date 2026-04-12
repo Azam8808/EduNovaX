@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillChatRightDotsFill } from 'react-icons/bs';
 import { BsGlobeAmericas } from 'react-icons/bs';
 import { IoIosCall } from 'react-icons/io';
-import ContactUsForm from '../Components/ContactPage/ContactUsForm';
+import ContactUsForm from '../components/ContactPage/ContactUsForm';
 import Footer from '../Components/Common/Footer';
 import ReviewSlider from "../Components/Common/ReviewSlider"
 const ContactPage = () => {

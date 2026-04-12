@@ -11,7 +11,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import UpdatePassword from "./pages/UpdatePassword";
 import VerifyEmail from "./pages/VerifyEmail";
 import About from "./pages/About";
-import ContactUsForm from "./Components/ContactPage/ContactUsForm";
+// import ContactUsForm from "./Components/ContactPage/ContactUsForm";
 import ContactPage from "./pages/ContactPage";
 import MyProfile from "./Components/core/Dashboard/MyProfile";
 import Dashboard from "./pages/Dashboard";
