@@ -8,12 +8,12 @@ import GetAvgRating from '../utils/avgRating';
 import Error from "./Error"
 import ConfirmationModal from "../Components/Common/ConfirmationModal.js"
 import RatingStars from "../Components/Common/RatingStars.jsx"
-import { formatDate } from '../services/formatDate';
+import { formatDate } from '../services/formatdate';
 import { IoIosInformationCircleOutline } from 'react-icons/io';
 import { BsGlobe } from 'react-icons/bs';
 import { BiVideo } from 'react-icons/bi';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
-import CourseDetailsCard from '../components/core/Course/CourseDetailsCard';
+import CourseDetailsCard from '../Components/Core/Course/CourseDetailsCard';
 import { toast } from 'react-hot-toast';
 import Footer from '../Components/Common/Footer.js'
 const CourseDetails = () => {

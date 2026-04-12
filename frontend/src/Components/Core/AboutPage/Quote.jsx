@@ -1,7 +1,7 @@
 import React from 'react'
-import HighlightText from '../HomePage/HighlightText'
-import HiglightText2 from '../HomePage/HiglightText2'
-import HighlightText3 from '../HomePage/HighlightText3'
+import HighlightText from '../Homepage/HighlightText'
+import HiglightText2 from '../Homepage/HiglightText2'
+import HighlightText3 from '../Homepage/HighlightText3'
 const Quote = () => {
   return (
     <div className=' text-xl md:text-4xl font-semibold mx-auto py-5 pb-20 text-center text-white'>

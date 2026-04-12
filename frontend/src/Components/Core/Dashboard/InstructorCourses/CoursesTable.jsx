@@ -11,7 +11,7 @@ import { HiClock } from "react-icons/hi"
 import { RiDeleteBin6Line } from "react-icons/ri"
 import { useNavigate } from "react-router-dom"
 import convertSecondsToDuration from '../../../../utils/secToDurationFrontend'
-import { formatDate } from "../../../../services/formatDate"
+import { formatDate } from "../../../../services/formatdate"
 import {
   deleteCourse,
   fetchInstructorCourses,

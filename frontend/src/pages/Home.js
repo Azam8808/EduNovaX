@@ -1,16 +1,16 @@
 import React from 'react'
 import {FaArrowRight} from "react-icons/fa"
 import {Link} from "react-router-dom"
-import HighlightText from '../components/core/HomePage/HighlightText'
+import HighlightText from '../Components/Core/Homepage/HighlightText'
 
-import CTAButton from "../components/core/HomePage/Button"
+import CTAButton from "../Components/Core/Homepage/Button"
 import Banner from "../assets/Images/banner.mp4"
-import CodeBlocks from "../components/core/HomePage/CodeBlocks"
+import CodeBlocks from "../Components/Core/Homepage/CodeBlocks"
 import Footer from '../Components/Common/Footer'
-import TimelineSection from '../components/core/HomePage/TimelineSection'
-import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection'
-import InstructorSection from '../components/core/HomePage/InstructorSection'
-import ExploreMore from '../components/core/HomePage/ExploreMore'
+import TimelineSection from '../Components/Core/Homepage/TimelineSection'
+import LearningLanguageSection from '../Components/Core/Homepage/LearningLanguageSection'
+import InstructorSection from '../Components/Core/Homepage/InstructorSection'
+import ExploreMore from '../Components/Core/Homepage/ExploreMore'
 import ReviewSlider from "../Components/Common/ReviewSlider"
 const Home = () => {
   return (

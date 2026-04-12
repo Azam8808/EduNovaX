@@ -5,7 +5,7 @@ import HighlightText from "../Components/Core/Homepage/HighlightText";
 import CTAButton from "../Components/Core/Homepage/CTAButton";
 import Banner from "../assets/Images/banner.mp4";
 import CodeBlocks from "../Components/Core/Homepage/CodeBlocks";
-import TimeLineSection from "../Components/Core/Homepage/TimeLineSection";
+import TimelineSection from "../Components/Core/Homepage/TimelineSection";
 import LearningLanguageSection from "../Components/Core/Homepage/LearningLanguageSection";
 import InstructorSection from "../Components/Core/Homepage/InstructorSection";
 import Footer from "../Components/Common/Footer";
@@ -156,7 +156,7 @@ const Home = () => {
 
                     </div>
 
-                <TimeLineSection/>
+                <TimelineSection/>
                 <LearningLanguageSection/>
             </div>
 
