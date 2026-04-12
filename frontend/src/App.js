@@ -3,7 +3,7 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./Components/Common/Navbar"
-import OpenRoute from "./components/core/Auth/OpenRoute"
+import OpenRoute from "./Components/core/Auth/OpenRoute"
 import { useNavigate } from "react-router-dom";
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
@@ -11,25 +11,25 @@ import ForgotPassword from "./pages/ForgotPassword";
 import UpdatePassword from "./pages/UpdatePassword";
 import VerifyEmail from "./pages/VerifyEmail";
 import About from "./pages/About";
-import ContactUsForm from "./components/ContactPage/ContactUsForm";
+import ContactUsForm from "./Components/ContactPage/ContactUsForm";
 import ContactPage from "./pages/ContactPage";
-import MyProfile from "./components/core/Dashboard/MyProfile";
+import MyProfile from "./Components/core/Dashboard/MyProfile";
 import Dashboard from "./pages/Dashboard";
-import PrivateRoute from "./components/core/Auth/PrivateRoute";
+import PrivateRoute from "./Components/core/Auth/PrivateRoute";
 import Error from "./pages/Error"
-import Settings from "./components/core/Dashboard/Settings";
+import Settings from "./Components/core/Dashboard/Settings";
 import { useDispatch, useSelector } from "react-redux";
-import EnrolledCourses from "./components/core/Dashboard/EnrolledCourses";
-import Cart from "./components/core/Dashboard/Cart";
+import EnrolledCourses from "./Components/core/Dashboard/EnrolledCourses";
+import Cart from "./Components/core/Dashboard/Cart";
 import { ACCOUNT_TYPE } from "./utils/constants";
-import AddCourse from "./components/core/Dashboard/Add Course/index";
-import MyCourses from "./components/core/Dashboard/MyCourses";
-import EditCourse from "./components/core/Dashboard/EditCourse";
+import AddCourse from "./Components/core/Dashboard/Add Course/index";
+import MyCourses from "./Components/core/Dashboard/MyCourses";
+import EditCourse from "./Components/core/Dashboard/EditCourse";
 import Catalog from "./pages/Catalog";
 import CourseDetails from "./pages/CourseDetails";
 import ViewCourse from "./pages/ViewCourse";
-import VideoDetails from "./components/core/ViewCourse/VideoDetails";
-import Instructor from "./components/core/Dashboard/Instructor"
+import VideoDetails from "./Components/core/ViewCourse/VideoDetails";
+import Instructor from "./Components/core/Dashboard/Instructor"
 import toast from "react-hot-toast";
 import picture from '../src/assets/Images/Photo.jpg'
 import { useEffect, useState } from "react";
