@@ -1,6 +1,10 @@
 const Section = require("../models/Section")
 const Course = require("../models/Course")
+<<<<<<< HEAD
 const SubSection = require("../models/SubSection")
+=======
+const SubSection = require("../models/Subsection")
+>>>>>>> 640d9f0 (updated code)
 // CREATE a new section
 exports.createSection = async (req, res) => {
   try {

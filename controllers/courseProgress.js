@@ -1,6 +1,10 @@
 const mongoose = require("mongoose")
 const Section = require("../models/Section")
+<<<<<<< HEAD
 const SubSection = require("../models/SubSection")
+=======
+const SubSection = require("../models/Subsection")
+>>>>>>> 640d9f0 (updated code)
 const CourseProgress = require("../models/CourseProgress")
 const Course = require("../models/Course")
 
