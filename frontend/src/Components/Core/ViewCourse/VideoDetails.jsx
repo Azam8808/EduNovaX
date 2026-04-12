@@ -5,7 +5,7 @@ import {updateCompletedLectures} from "../../../Slice/viewCourseSlice"
 import {markLectureAsComplete} from "../../../services/operations/courseDetailsAPI"
 import { BigPlayButton, Player } from "video-react"
 import "video-react/dist/video-react.css"
-import IconBtn from "../../Common/Iconbtn"
+import IconBtn from "../../Common/IconBtn"
 import { useRef } from "react";
 const VideoDetails = () => {
 

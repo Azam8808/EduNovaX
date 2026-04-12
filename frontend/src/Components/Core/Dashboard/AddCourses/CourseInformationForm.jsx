@@ -12,7 +12,7 @@ import {
 } from "../../../../services/operations/courseDetailsAPI"
 import { setCourse, setStep } from "../../../../Slice/courseSlice"
 import { COURSE_STATUS } from "../../../../utils/constants"
-import IconBtn from "../../../Common/Iconbtn"
+import IconBtn from "../../../Common/IconBtn"
 import Upload from "./Upload"
 import ChipInput from "./ChipInput"
 import RequirementsField from "./RequirementsField"

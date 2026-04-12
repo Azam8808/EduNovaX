@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
 
 import { updateProfile } from "../../../../services/operations/SettingAPI"
-import IconBtn from "../../../Common/Iconbtn"
+import IconBtn from "../../../Common/IconBtn"
 
 const genders = ["Male", "Female", "Non-Binary", "Prefer not to say", "Other"]
 
