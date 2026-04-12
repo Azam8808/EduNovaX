@@ -21,7 +21,7 @@ const InstructorSection = () => {
                 <HighlightText text={"Instructor"}/>
             </div>
             <div className="font-medium text-[16px] text-richblack-300 w-[80%]">
-                Instructors from around the world teach millions of students on TechStudy Hub. We provide the tools and skills to teach what you love.
+                Instructors from around the world teach millions of students on EduNovaX. We provide the tools and skills to teach what you love.
             </div>
 
             <div className="w-fit">

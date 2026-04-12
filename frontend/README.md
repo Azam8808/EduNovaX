@@ -1,6 +1,6 @@
-# TechStudy Hub
+# EduNovaX
 
-**TechStudy Hub** is an ed-tech platform that enables users to create, consume, and rate educational content. Built with the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), it aims to provide an immersive and interactive learning experience.
+**EduNovaX** is an ed-tech platform that enables users to create, consume, and rate educational content. Built with the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS), it aims to provide an immersive and interactive learning experience.
 
 ## Features
 
