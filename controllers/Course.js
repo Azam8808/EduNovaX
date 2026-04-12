@@ -1,11 +1,7 @@
 const Course = require("../models/Course")
 const Category = require("../models/Category")
 const Section = require("../models/Section")
-<<<<<<< HEAD
 const SubSection = require("../models/SubSection")
-=======
-const SubSection = require("../models/Subsection")
->>>>>>> 640d9f0 (updated code)
 const User = require("../models/User")
 const { uploadImageToCloudinary } = require("../utils/imageUploader")
 const CourseProgress = require("../models/CourseProgress")

@@ -1,10 +1,6 @@
 // Import necessary modules
 const Section = require("../models/Section")
-<<<<<<< HEAD
 const SubSection = require("../models/SubSection")
-=======
-const SubSection = require("../models/Subsection")
->>>>>>> 640d9f0 (updated code)
 const { uploadImageToCloudinary } = require("../utils/imageUploader")
 
 // Create a new sub-section for a given section
@@ -13,10 +9,7 @@ exports.createSubSection = async (req, res) => {
     // Extract necessary information from the request body
     const { sectionId, title, description } = req.body
     const video = req.files.video
-<<<<<<< HEAD
-    console.log("files upload here", vedio);
-=======
->>>>>>> 640d9f0 (updated code)
+
 
     // Check if all necessary fields are provided
     if (!sectionId || !title || !description || !video) {
