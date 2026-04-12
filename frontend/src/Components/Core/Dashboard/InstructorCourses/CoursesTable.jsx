@@ -17,7 +17,7 @@ import {
   fetchInstructorCourses,
 } from "../../../../services/operations/courseDetailsAPI"
 import { COURSE_STATUS } from "../../../../utils/constants"
-import ConfirmationModal from "../../../common/ConfirmationModal"
+import ConfirmationModal from "../../../Common/ConfirmationModal"
 
 const CoursesTable = ({courses, setCourses}) => {
     const dispatch = useDispatch()

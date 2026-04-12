@@ -3,7 +3,7 @@ import { UseSelector, useSelector } from 'react-redux/es/hooks/useSelector'
 import { useNavigate } from 'react-router-dom'
 import { RiEditBoxLine } from "react-icons/ri"
 import { formattedDate } from "../../../utils/dateFormatter"
-import IconBtn from "../../common/IconBtn"
+import IconBtn from "../../Common/IconBtn"
 const MyProfile = () => {
     const {user} = useSelector((state)=> state.profile)
     const navigate = useNavigate();

@@ -6,8 +6,8 @@ import { fetchCourseDetails } from '../services/operations/courseDetailsAPI';
 import { setCourse } from '../slices/courseSlice';
 import GetAvgRating from '../utils/avgRating';
 import Error from "./Error"
-import ConfirmationModal from "../components/common/ConfirmationModal"
-import RatingStars from "../components/common/RatingStars"
+import ConfirmationModal from "../Components/Common/ConfirmationModal.js"
+import RatingStars from "../Components/Common/RatingStars.jsx"
 import { formatDate } from '../services/formatDate';
 import { IoIosInformationCircleOutline } from 'react-icons/io';
 import { BsGlobe } from 'react-icons/bs';
@@ -15,7 +15,7 @@ import { BiVideo } from 'react-icons/bi';
 import { MdOutlineArrowForwardIos } from 'react-icons/md';
 import CourseDetailsCard from '../components/core/Course/CourseDetailsCard';
 import { toast } from 'react-hot-toast';
-import Footer from '../components/common/Footer.js'
+import Footer from '../Components/Common/Footer.js'
 const CourseDetails = () => {
     const {token} = useSelector((state)=> state.auth)
     const {user} = useSelector((state) => state.profile )

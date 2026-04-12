@@ -6,12 +6,12 @@ import HighlightText from '../components/core/HomePage/HighlightText'
 import CTAButton from "../components/core/HomePage/Button"
 import Banner from "../assets/Images/banner.mp4"
 import CodeBlocks from "../components/core/HomePage/CodeBlocks"
-import Footer from '../components/common/Footer'
+import Footer from '../Components/Common/Footer'
 import TimelineSection from '../components/core/HomePage/TimelineSection'
 import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection'
 import InstructorSection from '../components/core/HomePage/InstructorSection'
 import ExploreMore from '../components/core/HomePage/ExploreMore'
-import ReviewSlider from "../components/common/ReviewSlider"
+import ReviewSlider from "../Components/Common/ReviewSlider"
 const Home = () => {
   return (
     <div>

@@ -3,8 +3,8 @@ import { BsFillChatRightDotsFill } from 'react-icons/bs';
 import { BsGlobeAmericas } from 'react-icons/bs';
 import { IoIosCall } from 'react-icons/io';
 import ContactUsForm from '../components/ContactPage/ContactUsForm';
-import Footer from '../components/common/Footer';
-import ReviewSlider from "../components/common/ReviewSlider"
+import Footer from '../Components/Common/Footer';
+import ReviewSlider from "../Components/Common/ReviewSlider"
 const ContactPage = () => {
     const contactData = [
         {
