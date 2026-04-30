@@ -5,6 +5,7 @@ const Course = require("../models/Course");
 exports.aiChat = async (req, res) => {
     try {
         const { query, courseId, history } = req.body;
+        console.log("check values from req.body");
 
         if (!query) {
             return res.status(400).json({
