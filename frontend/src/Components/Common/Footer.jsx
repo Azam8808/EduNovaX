@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo/Logo-Full-Light.png";
 
 // Icons
-import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaTwitter, FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
@@ -47,10 +47,9 @@ const Footer = () => {
                 })}
               </div>
               <div className="flex gap-3 text-lg">
-                <FaFacebook />
-                <FaGoogle />
-                <FaTwitter />
-                <FaYoutube />
+                <a href="https://github.com/Azam8808/EduNovaX" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/azam8808/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+           
               </div>
               <div></div>
             </div>
