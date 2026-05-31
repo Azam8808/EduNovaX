@@ -12,7 +12,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                 font-size: 16px;
                 line-height: 1.4;
                 color: #333333;
-                margin: 0;
+                margin: 1;
                 padding: 0;
             }
     

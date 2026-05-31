@@ -8,6 +8,7 @@ exports.aiChat = async (req, res) => {
         console.log("check values from req.body");
 
         if (!query) {
+            console.log("error comes here");
             return res.status(400).json({
                 success: false,
                 message: "Query is required",
