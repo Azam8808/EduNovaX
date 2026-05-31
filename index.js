@@ -56,7 +56,8 @@ app.get("/", (req, res) => {
 		message: 'Your server is up and running....'
 	});
 });
-
+ console.log("error comes here");
 app.listen(PORT, () => {
+
 	console.log(`App is running at ${PORT}`)
 })
